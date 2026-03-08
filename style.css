@@ -1,0 +1,28 @@
+body {
+   background-color: rgb(222, 216, 216);
+   font-family : arial, sans-serif;
+}
+
+*{
+   margin : 0;
+   padding : 0;
+}
+
+span{
+   font-style: italic;
+}
+
+.teks-biru{
+   color :dodgerblue;
+}
+
+#judul-utama {
+   text-align : center;
+   text-transform: uppercase;
+   color: #333;
+}
+
+.kontainer p{
+   background-color: yellow !important;
+   font-weight: bold;
+}
