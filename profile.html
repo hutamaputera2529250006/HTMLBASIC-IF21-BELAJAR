@@ -13,5 +13,57 @@
          <a id="kembali-home" href="index.html">Kembali Ke Halaman Utama</a>
       </nav>
    </div>
+
+      <!-- MENYISIPKAN GAMBAR/ IMAGE / VIDEO -->
+   <!-- <figure> + <figcation> dan <img> -->
+   <figure>
+      <img height= 200px src="laporanpenjualanmobil.png" alt="laporan penjualan mobil">
+      <figcaption>Gambar 1.1: Laporan Penjualan Mobil</figcaption>
+   </figure>
+
+   <!-- <video width="640" height="360" control poster="thumnbnail.jpg">
+      <source src="tutorial.mp4" type="video/mp4">
+      <source src="tutorial.webm" type="video/webm">
+   </video> -->
+
+   <!-- MEMBUAT TABLE -->
+   <!-- <thead> judul + <tbody> isi + <tfoot> untuk total/kesimpulan -->
+   <!-- colspan : mengabung sel secara horizontal/samping -->
+   <!-- rowspan : mengabung sel secara vertikal/bawah -->
+      <div>
+            <table border="1" width="500" height="200">
+            <caption>Laporan Kehadiran Siswa</caption>
+            <thead>
+               <tr>
+                  <th rowspan=2>Nama Mahasiswa</th>
+                  <th colspan="3">Hari Perkuliahan</th>
+               </tr>
+               <tr>
+                  <td>Senin</td>
+                  <td>Selasa</td>
+                  <td>Rabu</td>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+               <td>Budi Santoso</td>
+               <td>Hadir</td>
+               <td>Hadir</td>
+               <td>Absen</td>
+            </tr>
+            <tr>
+               <td>Siti Aminah</td>
+               <td colspan="2">Izin Sakit</td>
+               <td>Hadir</td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+               <td colspan="3">Total Presentase Kehadiran</td>
+               <td>85%</td>
+            </tr>
+         </tfoot>
+      </div>
+
 </body>
 </html>
