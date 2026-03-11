@@ -1,0 +1,25 @@
+.parent {
+   color : green;
+}
+
+.parent p {
+   color : red;
+}
+
+.parent > p {
+   color : aqua;
+}
+
+/* P pertama setelah class parent */
+.parent + p {
+   color : orangered;
+}
+
+/* Semua p setelah class parent */
+.parent ~ p{
+   color : violet;
+}
+
+.pohon > p {
+   color : blue;
+}
